@@ -1,0 +1,16 @@
+{
+  "name": "com.ezeiur.patrimonioinclusivo",
+  "version": "1.0.0",
+  "displayName": "Patrimonio Inclusivo",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0"
+  }
+}

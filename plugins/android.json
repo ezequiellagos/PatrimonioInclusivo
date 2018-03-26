@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "com.ezeiur.patrimonioinclusivo"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.ezeiur.patrimonioinclusivo"
     }
   },
   "dependent_plugins": {}
