@@ -1,0 +1,67 @@
+body{
+	background-color: #4696a9;
+	height: 100%;
+	position:absolute;
+	font-family: 'Press Start 2P', cursive;
+}
+
+@font-face {
+  font-family: 'Press Start 2P';
+  src:  url('../fonts/Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+}
+
+.logo-inicio{
+	margin-top: 40%;
+}
+
+.button-login{
+	margin-top: 1.5em;
+	left: 0px;
+}
+
+.capa-1{
+	position:absolute;
+	z-index:1;
+}
+
+.capa-2{
+	position:absolute;
+	z-index:0;
+	-webkit-animation:spin 10s linear infinite;
+	-moz-animation:spin 10s linear infinite;
+	animation:spin 10s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+/*Scroll horizontal*/
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    height: 100%;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu img{
+	max-height: 13em;
+}
+
+
+/*Mano Siguiente*/
+.avanzar{
+	position: fixed;
+    right: 0em;
+    top: 1em;
+    width: 6em;
+    transform: rotate(25deg);
+}
+
